@@ -5,8 +5,11 @@
     padding: 0;
 }
 
+body {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
 main {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,17 +63,14 @@ main {
     line-height: 40px;
 }
 
-.text {
-   padding-top: 26px; 
-}
-
-.text p {
+.title-second p {
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #83869A;
+    padding-top: 26px; 
 }
 
 .title-started__second {
@@ -100,4 +100,113 @@ main {
 .img-woman img {
     width: 327px;
     height: 301px;
+}
+
+.box-container {
+    margin: 66px 0 16px 0;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+}
+
+.box-title span {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.boxes-container {
+    width: 343px;
+    height: 259px;
+    margin-top: 40px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.boxes-content {
+    margin: 0 29px 0 28px;
+}
+
+.boxes-title {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+    padding-top: 56px;
+}
+
+.boxes-text {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    padding-top: 16px;
+}
+
+.boxes-btn {
+    background: none;
+	border: none;
+	cursor: pointer;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    margin-top: 24px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 375px;
+    height: 120px;
+    background-color: #13183F;
+}
+
+footer h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.title-started__third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 48px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    margin-right: 16px;
+}
+
+.title-started__third span {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
 }

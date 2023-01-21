@@ -6,6 +6,8 @@
     .title-second {
         display: flex;
         flex-direction: row;
+        margin-bottom: 96px;
+        /* position: relative; */
     }
 
     .woman-img__mobile {
@@ -19,6 +21,7 @@
         height: 640px;
         left: 425px;
         top: -92.13px;
+        /* parei aqui */
     }
 
     .box-container {
@@ -33,6 +36,10 @@
         justify-content: flex-start;
         height: 259px;
         margin-top: 40px;
+    }
+
+    .box-content {
+        width: 339px;
     }
 
     .box-title span {

@@ -11,6 +11,7 @@ body {
 
 main {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     margin: 16px 16px 0 16px;
@@ -21,6 +22,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .title h2 {
@@ -54,6 +56,10 @@ main {
 .title-second {
     padding-top: 38px;
 }
+
+.woman-img__tablet {
+        display: none;
+    }
 
 .title-second h1 {
     font-family: 'Plus Jakarta Sans';
@@ -93,13 +99,10 @@ main {
     color: #FFFFFF;
 }
 
-.img-woman {
-    margin-top: 46px;
-}
-
-.img-woman img {
+.title-second img {
     width: 327px;
     height: 301px;
+    padding-top: 46px;
 }
 
 .box-container {
@@ -126,6 +129,7 @@ main {
 }
 
 .boxes-container {
+    position: relative;
     width: 343px;
     height: 259px;
     margin-top: 40px;
@@ -136,6 +140,13 @@ main {
 
 .boxes-content {
     margin: 0 29px 0 28px;
+}
+
+.boxes-img {
+    position: absolute;
+    z-index: 0;
+    bottom: 224px;
+    margin-left: 32px;
 }
 
 .boxes-title {
@@ -176,9 +187,10 @@ footer {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    width: 375px;
+    /* width: 375px; */
     height: 120px;
     background-color: #13183F;
+    margin-top: 80px;
 }
 
 footer h2 {

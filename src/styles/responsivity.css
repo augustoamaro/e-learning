@@ -16,24 +16,23 @@
     .title__first-column {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 398px;
         /* outline: 1px solid greenyellow; */
     }
     
     .title__second-column {
-        display: flex;
         position: relative;
-        width: 50%;
-        overflow: hidden;
-        outline: 1px solid red;
-        top: -230px;
     }
 
     .woman-img__tablet {
         display: flex;
-        width: 640.71px;
+        position: absolute;
+        /* right: 0; */
+        /* top: -50%; */
+        width: 640px;
         height: 640px;
-        /* outline: 1px solid red; */
+        transform: translateX(45%) translateY(-35%);
+        outline: 1px solid red;
     }
     
     .woman-img__mobile {
